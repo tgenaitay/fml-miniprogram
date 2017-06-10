@@ -28,7 +28,7 @@ Example:
 
 - Install the [IDE](https://github.com/apelegri/wechat-miniprogram-whitebook#wechat-ide) and read the tutorial.
 - Create a mini-program project within the IDE (we will provide the AppID necessary to create a project).
-- Add the *kickstarter* source code in the folder
+- Add the *Quickstarter* source code in the folder
 - **Init git**, push it to a Github repo
 
 
