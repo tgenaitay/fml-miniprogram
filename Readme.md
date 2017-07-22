@@ -26,10 +26,11 @@ Example:
 
 **Get your development environment:**
 
-- Install the [IDE](https://github.com/apelegri/wechat-miniprogram-whitebook#wechat-ide) and read the tutorial.
-- Create a mini-program project within the IDE (we will provide the AppID necessary to create a project).
-- Add the *Quickstarter* source code in the folder
-- **Init git**, push it to a Github repo
+- Install the [IDE](https://github.com/apelegri/wechat-miniprogram-wiki#wechat-ide) and read the quick tutorial provided.
+- Create a mini-program project within the IDE (your teacher will provide the MP **AppID** necessary to create a project).
+- Add the *Quickstart* source code in the folder
+- **Init git**, commit and push it to your own Github repo
+- *If you are not able to **preview** your MP, ask help from a teacher*
 
 
 ## 2. Mini-program configuration
@@ -50,7 +51,7 @@ The `app.json` file is where to start your mini-program:
 - Style your `window`.
 - Generate your `tabBar`.
 
-Here is a section of our manual to help you to [configure your MP](https://github.com/apelegri/wechat-miniprogram-whitebook#core-setup-of-your-mp).
+Here is a section of our manual to help you to [configure your MP](https://github.com/apelegri/wechat-miniprogram-wiki#core-setup-of-your-mp).
 
 **Further resources:**
 
@@ -58,7 +59,7 @@ Here is a section of our manual to help you to [configure your MP](https://githu
 
 ## 3. Create dynamic pages
 
-In this step you will start to use the core principles of the framework. We recommend that you read this part of the [manual](https://github.com/apelegri/wechat-miniprogram-whitebook#create-dynamic-pages) before you start.
+In this step you will start to use the core principles of the framework. We recommend that you read this part of the [manual](https://github.com/apelegri/wechat-miniprogram-wiki#create-dynamic-pages) before you start.
 
 **Specs**
 
@@ -68,22 +69,22 @@ In this step you will start to use the core principles of the framework. We reco
 
 **Further suggestions:**
 
-- [WXML / HTML differences](https://github.com/apelegri/wechat-miniprogram-whitebook#wxml---html-whats-the-deal) you need to know.
-- [FML cards](http://www.fmylife.com/) are ugly: you can surely do better.
+- [WXML / HTML differences](https://github.com/apelegri/wechat-miniprogram-wiki#wxml---html-whats-the-deal) you need to know.
+- [FML cards](http://www.fmylife.com/) are ugly: you can surely do better!
 
 ## 4. Leancloud DB
 
-The goal here is to **fetch the data** from Leancloud. You will need to build a new DB, named **FML-MP DB**, and use it to inject content into the cards you created ;)
+The goal here is to **fetch the data** from Leancloud. You will need to use a shared cloud DB, named **FML-miniprogram**, and use it to inject content into the cards you created ;)
 
 
 **Specs**
 
 - Sign up to [Leancloud](leancloud.cn). It's free.
-- Create your FML DB within Leancloud.
-- Setup Leancloud in your MP.
-- Fetch data from Leancloud (FML) and bind data in your cards.
-
-Here is a [tutorial](https://github.com/apelegri/wechat-miniprogram-whitebook#leancloud-db) that **should be helpful.**
+- Don't forget to verify your email address.
+- Send your username to a teacher: you will be added to the *wagon-alumni* team and will then get access to the **FML-miniprogram** app on Leancloud
+- Setup Leancloud in your MP. [Read this](https://github.com/apelegri/wechat-miniprogram-wiki#2-install-and-initialize-leancloud).
+- Fetch data from the shared DB (**FML-miniprogram**) and bind data in your cards.
+Here is a [tutorial](https://github.com/apelegri/wechat-miniprogram-wiki#leancloud-db) that **should be helpful.**
 
 **Further resources:**
 
@@ -93,14 +94,14 @@ Here is a [tutorial](https://github.com/apelegri/wechat-miniprogram-whitebook#le
 
 ## 5. Submit a new FML
 
-Now, it is time to **create a new page** which allow users to submit a FML.
+Now, it is time to **create a new page** which allows users to submit a FML story!
 
 **Specs**
 
 - Create a new page to submit a FML.
 - Post the data collected from the form (.wxml) to the logical layer (.js) then to Leancloud.
 
-Everything is in the [tutorial](https://github.com/apelegri/wechat-miniprogram-doc#leancloud-db) just follow it.
+Everything is in the [tutorial](https://github.com/apelegri/wechat-miniprogram-wiki#leancloud-db) just follow it.
 
 **Further resources:**
 
@@ -108,15 +109,15 @@ Everything is in the [tutorial](https://github.com/apelegri/wechat-miniprogram-d
 - Leancloud data storage [guide](https://leancloud.cn/docs/leanstorage_guide-js.html).
 
 
-## 6. Upvote
+## 6. Upvote (optional)
 
-Here is the tricky part: create a counter which allows users to upvote a FML story.
+Here is a bit of challenge: create a counter which allows users to upvote a FML story.
 
 **Specs**
 
-- Add a new column in your Leancloud table to store the number of **upvotes**.
+- The Leancloud DB has an **upvotes** column
 - Each time a user taps on the upvote icon or btn, increment the counter.
-- Post the update to Leancloud.
+- *Post* the update to Leancloud.
 
 **Further suggestions & resources:**
 
