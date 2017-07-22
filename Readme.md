@@ -1,23 +1,28 @@
-# Background & objectives
-Today we will dive into the basics of the mini-program framework and try to understand what's going on. The main assignment of the day is to build a copycat of **["FML: your every day life stories"](http://www.fmylife.com/)**, check it out now.
+# WeChat mini-program challenge
+
+Build a simple mini-program in 1 day.
+
+## Background & objectives
+
+Today we will discover the basics of the mini-program framework. The main assignment is to build a copycat of **["FML: your every day life stories"](http://www.fmylife.com/)**, check it out now.
 
 **Day objectives:**
 
-- Master the WeChat IDE.
-- Understand the config.
+- Master the WeChat MP Integrated Development Environment.
+- Understand the config of Mini-programs.
 - Play with the view/logic layers.
-- Discover the framework.
-
+- Discover the framework components and APIs.
 
 **Exercise objectives:**
 
-- MP configuration.
-- Display a list of FML "stories".
+- Setup your workstation
+- Setup the MP.
+- Display a list of user-generated content (FML "stories")
 - Setup, fetch and persist remote data using Leancloud.
-- Post a FML.
-- Upvote a FML.
+- Post a user-generated content.
+- Update content.
 
-Example:
+See it yourself:
 
 ![](asset/new-fml.gif)
 
